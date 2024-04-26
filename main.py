@@ -33,7 +33,7 @@ async def yes(update, context):
     reply_keyboard = [['/talk', '/test'], ['/zodiac_sign']]
     markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True)
     await update.message.reply_text(
-        rf"Теперь выбери, чем мы займемся!",
+        rf"Теперь выбери, чем м займемся!",
         reply_markup=markup
     )
 
